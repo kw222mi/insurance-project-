@@ -66,6 +66,7 @@ html, body {
     margin: 50px 50px 10px 50px;
     display: flex;
     align-self: center;
+    width: fit-content;
 }
     
 
@@ -90,6 +91,7 @@ html, body {
 
 .section2-p {
     font-family: Fira Sans;
+    margin-bottom: 0;
     
 }
 
@@ -97,6 +99,7 @@ html, body {
     font-family: Frank Ruhl Libre;
     color: white;
     font-size: 30px;
+    margin-top: 10px;
 }
 
 /* SECTION3 */
@@ -112,12 +115,14 @@ html, body {
 
 .section3-p {
     font-family: Fira Sans;
+    margin-bottom: 0;
 }
 
 .section3-h2 {
     font-family: Frank Ruhl Libre;
     color: white;
     font-size: 30px;
+    margin-top: 10px;
 }
 
 
