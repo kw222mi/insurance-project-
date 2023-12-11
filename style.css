@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    
+
+}
+
+.main-index {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
+/* SECTION 1*/
+.section1 {
+    background-color: #C7DDEA;
+}
+
+.section1-h1 {
+    font-family: Frank Ruhl Libre;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.section1-p1 {
+    font-family: Fira Sans;
+    margin: 20px;
+
+}
+
+.section1-span {
+    color:white;
+}
+
+.section1-button {
+    background-color: white;
+    border-radius: 22px;
+    font-family: Fira Sans;
+    font-size: 15px;
+    padding: 10px 30px;
+    font-style: bold;
+    margin: 20px;
+}
+
+.section1-img {
+    height: 400px;
+    margin: 20px;
+}
+
+
+/* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey
