@@ -50,6 +50,7 @@ html, body {
     font-family: Frank Ruhl Libre;
     font-size: 60px;
     margin: 50px 50px 10px 50px;
+    line-height: 0.9;
 }
 
 .section1-p1 {
@@ -141,7 +142,6 @@ html, body {
     text-decoration: none;
     color: #A9A19E;
     font-family: Fira Sans;
-
 }
 
 .nav-link {
@@ -152,6 +152,55 @@ html, body {
     color: black;
 }
 
+/* Section 4*/
+.section4-div1 {
+    background-color: #A9A19E;
+   
+}
+
+.section4-about {
+    background-color: #FAB131;
+    
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #A9A19E;
+}
+
+.card {
+    background-color: white;
+    margin: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.card-img-div {
+    background-color: #C7DDEA;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+.card-img { 
+    max-width: 50%; 
+    
+}
+
+.section4-h2 {
+    font-family: Frank Ruhl Libre;
+    color: white;
+    font-size: 50px;
+    padding: 30px 30px 20px 30px;
+
+    
+}
+
+.section4-p {
+    font-family: Fira Sans;
+    padding: 0px 30px 20px 30px;
+}
 
 
 /* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey */
