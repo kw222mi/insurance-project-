@@ -142,6 +142,7 @@ html, body {
     text-decoration: none;
     color: #A9A19E;
     font-family: Fira Sans;
+    padding: 10px 0px 15px 0px;
 }
 
 .nav-link {
@@ -155,6 +156,7 @@ html, body {
 /* Section 4, WITH CARDS */
 .section4-div1 {
     background-color: #A9A19E;
+    padding-bottom: 150px;
    
 }
 
@@ -166,6 +168,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #A9A19E;
+    
 }
 
 .card {
@@ -176,7 +179,9 @@ html, body {
     justify-content: center;
     align-content: center;
     border-radius: 10px;
+   
 }
+
 .card-img-div {
     height: 150px;
     margin-left: 15px;
@@ -237,6 +242,7 @@ html, body {
     color: white;
     font-size: 50px;
     padding: 30px 30px 20px 30px;
+    text-align: center;
 
     
 }
@@ -244,18 +250,39 @@ html, body {
 .section4-p {
     font-family: Fira Sans;
     padding: 0px 30px 20px 30px;
-    text-align: justify;
+    text-align: center;
 }
 
 
 /* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey */
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 650px) {
+
+    .section4-div1 {
+            background-color: #A9A19E;
+            padding-bottom: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: last baseline;
+            
+        }
+
+        .section4-p {
+            max-width: 30%;
+        }
+
+        .section4-h2 {
+            max-width: 30%;
+        }
+        
     .card-container {
             display: flex;
             flex-direction: row;
             background-color: #A9A19E;
             justify-content: space-around;
+            padding: 0px 30px 0px 30px;
+            margin-bottom: -15%;
 
         }
 
@@ -268,4 +295,14 @@ html, body {
                     align-content: center;
                     border-radius: 10px;
                 }
+
+    .section4-about {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+
 }
