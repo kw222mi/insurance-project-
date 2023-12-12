@@ -253,6 +253,66 @@ html, body {
     text-align: center;
 }
 
+/* SECTION 5 */
+
+.section5 {
+    display: grid;
+        grid: auto-flow min-content /1fr;
+        grid-template-areas: "section5-1"
+                            "section5-2"
+                            "section5-3"
+                            "section5-4"
+                            "section5-5"
+                            "section5-6";
+        margin: 1em;
+}
+.section5-1 {
+    background-color: #C7DDEA;
+    text-align: center;
+    grid-area: section5-1;
+
+}
+
+.section5-2 {
+    font-family: Fira Sans;
+    grid-area: section5-2;
+}
+
+.section5-3 {
+    font-family: Fira Sans;
+    grid-area: section5-3;
+}
+
+.section5-4 {
+    font-family: Fira Sans;
+    grid-area: section5-4;
+}
+
+.section5-5 {
+    font-family: Fira Sans;
+    grid-area: section5-5;
+}
+
+.section5-6 {
+    font-family: Fira Sans;
+    grid-area: section5-6;
+}
+
+.text {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 650px) {
+    .section5 {
+        grid: auto-flow min-content / 1fr 1fr 1fr;
+        grid-template-areas: 
+        "section5-1 section5-2 section5-3"
+        "section5-4 section5-5 section5-6";
+
+    }
+}
+
 
 /* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey */
 
@@ -275,7 +335,7 @@ html, body {
         .section4-h2 {
             max-width: 30%;
         }
-        
+
     .card-container {
             display: flex;
             flex-direction: row;
