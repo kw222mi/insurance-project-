@@ -152,7 +152,7 @@ html, body {
     color: black;
 }
 
-/* Section 4*/
+/* Section 4, WITH CARDS */
 .section4-div1 {
     background-color: #A9A19E;
    
@@ -175,18 +175,62 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    border-radius: 10px;
 }
 .card-img-div {
-    background-color: #C7DDEA;
-    margin-left: 10px;
-    margin-right: 10px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     justify-content: center;
+    margin-top: -50px;
+    border-radius: 5px;
+    overflow: hidden;
 }
-.card-img { 
-    max-width: 50%; 
-    
+
+.child {
+    background-color: #C7DDEA;
 }
+
+.middle {
+    background-color: #FAB131;
+}
+
+.old {
+    background-color: #F17949;
+
+}
+.card-img-child { 
+    max-width: 50%;
+        margin-bottom: -12%;
+        margin-top: 50px;
+}
+
+.card-img-middle {
+    max-width: 50%;
+    margin-bottom: -85%;
+    margin-top: 50px;
+}
+
+.card-img-old {
+    max-width: 50%;
+    margin-bottom: -70%;
+    margin-top: 50px;
+}
+
+.card-h3 {
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 1.2em;
+}
+
+.card-p {
+    text-align: center;
+    font-family: Fira Sans;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
 
 .section4-h2 {
     font-family: Frank Ruhl Libre;
@@ -200,7 +244,28 @@ html, body {
 .section4-p {
     font-family: Fira Sans;
     padding: 0px 30px 20px 30px;
+    text-align: justify;
 }
 
 
 /* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey */
+
+@media screen and (min-width: 500px) {
+    .card-container {
+            display: flex;
+            flex-direction: row;
+            background-color: #A9A19E;
+            justify-content: space-around;
+
+        }
+
+                .card {
+                    background-color: white;
+                    margin: 10px 20px 10px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-content: center;
+                    border-radius: 10px;
+                }
+}
