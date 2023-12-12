@@ -11,7 +11,6 @@ html, body {
             "section2"
             "section3";
         margin: 1em;
-       
 }
 
 
@@ -101,7 +100,6 @@ html, body {
 .section2-p {
     font-family: Fira Sans;
     margin-bottom: 0;
-    
 }
 
 .section2-h2 {
@@ -157,13 +155,27 @@ html, body {
 .section4-div1 {
     background-color: #A9A19E;
     padding-bottom: 150px;
-   
 }
 
 .section4-about {
     background-color: #FAB131;
-    
 }
+
+.section4-h2 {
+    font-family: Frank Ruhl Libre;
+    color: white;
+    font-size: 50px;
+    padding: 30px 30px 20px 30px;
+    text-align: center;
+}
+
+.section4-p {
+    font-family: Fira Sans;
+    padding: 0px 30px 20px 30px;
+    text-align: center;
+}
+
+/* CARD */
 .card-container {
     display: flex;
     flex-direction: column;
@@ -236,22 +248,53 @@ html, body {
     margin-left: 30px;
 }
 
+/* media query card section */
+@media screen and (min-width: 650px) {
+    .section4-div1 {
+        background-color: #A9A19E;
+        padding-bottom: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: last baseline;
+    }
 
-.section4-h2 {
-    font-family: Frank Ruhl Libre;
-    color: white;
-    font-size: 50px;
-    padding: 30px 30px 20px 30px;
-    text-align: center;
+    .section4-p {
+        max-width: 40%;
+    }
 
-    
-}
+    .section4-h2 {
+        max-width: 30%;
+    }
 
-.section4-p {
-    font-family: Fira Sans;
-    padding: 0px 30px 20px 30px;
-    text-align: center;
-}
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        background-color: #A9A19E;
+        justify-content: space-around;
+        padding: 0px 30px 0px 30px;
+        margin-bottom: -15%;
+    }
+
+    .card {
+        background-color: white;
+        margin: 10px 20px 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        border-radius: 10px;
+    }
+
+    .section4-about {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 
 /* SECTION 5 */
 
@@ -352,53 +395,7 @@ html, body {
 
 /* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey */
 
-@media screen and (min-width: 650px) {
 
-    .section4-div1 {
-            background-color: #A9A19E;
-            padding-bottom: 150px;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            align-items: last baseline;
-            
-        }
-
-        .section4-p {
-            max-width: 30%;
-        }
-
-        .section4-h2 {
-            max-width: 30%;
-        }
-
-    .card-container {
-            display: flex;
-            flex-direction: row;
-            background-color: #A9A19E;
-            justify-content: space-around;
-            padding: 0px 30px 0px 30px;
-            margin-bottom: -15%;
-
-        }
-
-                .card {
-                    background-color: white;
-                    margin: 10px 20px 10px 20px;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-content: center;
-                    border-radius: 10px;
-                }
-
-    .section4-about {
-        padding-top: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       
-    }
 
 
 }
