@@ -33,14 +33,19 @@ justify-content: flex-end;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .form-header {
     color: white;
+    margin-top: 70px;
 }
  form {
     display: flex;
     flex-direction: column;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
  }
 
  label {
@@ -75,11 +80,9 @@ padding: 15px;
         font-style: bold;
         display: flex;
         align-self: flex-start;
-        
         display: flex;
         align-self: flex-end;
-        width: fit-content;
-    
+        width: fit-content;    
  }
 
  /*MAP SECTION*/
