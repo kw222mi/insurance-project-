@@ -1,6 +1,10 @@
 html {
     --main-font: Fira Sans;
     --header-font: Frank Ruhl Libre;
+    --baby-blue: #C7DDEA;
+    --orange: #F17949;
+    --yellow: #FAB131;
+    --grey: #A9A19E;
 }
 
 html, body {
@@ -14,6 +18,11 @@ p {
 
 h1, h2, h3 {
     font-family: var(--header-font);
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 /* DIV 1 */
@@ -51,7 +60,7 @@ h1, h2, h3 {
 }
 /* SECTION 1*/
 .section1 {
-    background-color: #C7DDEA;
+    background-color: var(--baby-blue);
     grid-area: section1;
     display: flex;
     flex-direction: column;
@@ -101,7 +110,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     grid-area: section2;
-    background-color: #F17949;
+    background-color: var(--orange);
     justify-content: center;
     align-items: center;
 }
@@ -120,7 +129,7 @@ h1, h2, h3 {
 
 .section3 {
     grid-area: section3;
-    background-color: #FAB131;
+    background-color: var(--yellow);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,15 +151,14 @@ h1, h2, h3 {
 .nav-menu {
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
-    color: #A9A19E;
-    font-family: Fira Sans;
+    color: var(--grey);
+    font-family: var(--main-font);
     padding: 10px 0px 15px 0px;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #A9A19E;
+   
+    color: var(--grey);
 }
 .nav-link:hover {
     color: black;
@@ -158,14 +166,14 @@ h1, h2, h3 {
 
 /* Section 4, WITH CARDS */
 .section4-div1 {
-    background-color: #A9A19E;
+    background-color: var(--grey);
     padding-bottom: 150px;
     display: flex;
     flex-direction: column;
 }
 
 .section4-about {
-    background-color: #FAB131;
+    background-color: var(--yellow);
 }
 
 .section4-h2 {
@@ -175,7 +183,6 @@ h1, h2, h3 {
     text-align: center;
 }
 
-
 #button-to-hide {
     display: none;
 }
@@ -183,15 +190,13 @@ h1, h2, h3 {
 .section4-p {
     padding: 0px 30px 20px 30px;
     text-align: center;
-    
 }
 
 /* CARD */
 .card-container {
     display: flex;
     flex-direction: column;
-    background-color: #A9A19E;
-    
+    background-color: var(--grey);
 }
 
 .card {
@@ -202,7 +207,6 @@ h1, h2, h3 {
     justify-content: center;
     align-content: center;
     border-radius: 10px;
-   
 }
 
 .card-img-div {
@@ -217,15 +221,15 @@ h1, h2, h3 {
 }
 
 .child {
-    background-color: #C7DDEA;
+    background-color: var(--baby-blue);
 }
 
 .middle {
-    background-color: #FAB131;
+    background-color: var(--yellow);
 }
 
 .old {
-    background-color: #F17949;
+    background-color: var(--orange);
 
 }
 .card-img-child { 
@@ -260,7 +264,7 @@ h1, h2, h3 {
 /* media query card section */
 @media screen and (min-width: 650px) {
     .section4-div1 {
-        background-color: #A9A19E;
+        background-color: var(--grey);
         padding-bottom: 150px;
         display: flex;
         flex-direction: row;
@@ -286,7 +290,7 @@ h1, h2, h3 {
     .card-container {
         display: flex;
         flex-direction: row;
-        background-color: #A9A19E;
+        background-color: var(--grey);
         justify-content: space-around;
         padding: 0px 30px 0px 30px;
         margin-bottom: -15%;
@@ -327,7 +331,7 @@ h1, h2, h3 {
         
 }
 .section5-1 {
-    background-color: #C7DDEA;
+    background-color: var(--baby-blue);
     text-align: center;
     grid-area: section5-1;
     display: flex;
@@ -353,7 +357,7 @@ h1, h2, h3 {
 }
 
 .section5-5 {
-    background-color: #F17949;
+    background-color: var(--orange);
     grid-area: section5-5;
 }
 
@@ -363,7 +367,7 @@ h1, h2, h3 {
 
 .number {
     font-size: 2em;
-    font-family: Frank Ruhl Libre;
+    font-family: var(--header-font);
     font-style: bold;
     padding-left: 20px;
 }
@@ -389,14 +393,11 @@ h1, h2, h3 {
     .nav-up {
         text-align: center;
         padding: 20px 0px 20px 0px;
-        background-color: #A9A19E;
-        font-family: Fira Sans;
+        background-color: var(--grey);
+        font-family: var(--main-font);
         display: flex;
         flex-direction: column;
     }
 
-    .nav-up-a {
-        text-decoration: none;
-        color: black;
-    }
+   
 }
