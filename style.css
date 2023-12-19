@@ -393,3 +393,10 @@ a {
         flex-direction: column;
     }
 }
+
+/*FOOTER*/
+
+footer {
+    background-color: rgb(123, 123, 123);
+    height: 300px;
+}
