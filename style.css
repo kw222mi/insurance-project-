@@ -1,6 +1,19 @@
+html {
+    --main-font: Fira Sans;
+    --header-font: Frank Ruhl Libre;
+}
+
 html, body {
     height: 100%;
     margin: 0;
+}
+
+p {
+    font-family: var(--main-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--header-font);
 }
 
 /* DIV 1 */
@@ -46,14 +59,12 @@ html, body {
 }
 
 .section1-h1 {
-    font-family: Frank Ruhl Libre;
     font-size: 60px;
     margin: 50px 50px 10px 50px;
     line-height: 0.9;
 }
 
 .section1-p1 {
-    font-family: Fira Sans;
     margin: 10px 50px 10px 50px;
 
 }
@@ -62,12 +73,10 @@ html, body {
     color:white;
 }
 
-
-
 .section1-button {
     background-color: white;
     border-radius: 22px;
-    font-family: Fira Sans;
+    font-family: var(--main-font);
     font-size: 15px;
     padding: 10px 30px;
     font-style: bold;
@@ -98,12 +107,10 @@ html, body {
 }
 
 .section2-p {
-    font-family: Fira Sans;
     margin-bottom: 0;
 }
 
 .section2-h2 {
-    font-family: Frank Ruhl Libre;
     color: white;
     font-size: 30px;
     margin-top: 10px;
@@ -121,12 +128,10 @@ html, body {
 }
 
 .section3-p {
-    font-family: Fira Sans;
     margin-bottom: 0;
 }
 
 .section3-h2 {
-    font-family: Frank Ruhl Libre;
     color: white;
     font-size: 30px;
     margin-top: 10px;
@@ -164,7 +169,6 @@ html, body {
 }
 
 .section4-h2 {
-    font-family: Frank Ruhl Libre;
     color: white;
     font-size: 50px;
     padding: 30px 30px 0px 30px;
@@ -177,7 +181,6 @@ html, body {
 }
 
 .section4-p {
-    font-family: Fira Sans;
     padding: 0px 30px 20px 30px;
     text-align: center;
     
@@ -245,13 +248,11 @@ html, body {
 
 .card-h3 {
     text-align: center;
-    font-family: Frank Ruhl Libre;
     font-size: 1.2em;
 }
 
 .card-p {
     text-align: center;
-    font-family: Fira Sans;
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -308,7 +309,7 @@ html, body {
         justify-content: center;
         align-items: center;
     }
-
+}
 
 
 /* SECTION 5 */
@@ -339,29 +340,24 @@ html, body {
 }
 
 .section5-2 {
-    font-family: Fira Sans;
     grid-area: section5-2;
 }
 
 .section5-3 {
     background-color: #d7d3d2;
-    font-family: Fira Sans;
     grid-area: section5-3;
 }
 
 .section5-4 {
-    font-family: Fira Sans;
     grid-area: section5-4;
 }
 
 .section5-5 {
     background-color: #F17949;
-    font-family: Fira Sans;
     grid-area: section5-5;
 }
 
 .section5-6 {
-    font-family: Fira Sans;
     grid-area: section5-6;
 }
 
@@ -388,29 +384,19 @@ html, body {
         grid-template-areas: 
         "section5-1 section5-2 section5-3"
         "section5-4 section5-5 section5-6";
-
     }
-}
 
-.nav-up {
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    background-color: #A9A19E;
-    font-family: Fira Sans;
-    display: flex;
-    flex-direction: column;
-}
+    .nav-up {
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        background-color: #A9A19E;
+        font-family: Fira Sans;
+        display: flex;
+        flex-direction: column;
+    }
 
-.nav-up-a {
-    text-decoration: none;
-    color: black;
-}
-
-
-
-/* colors:  #F17949; orange, #FAB131 yellow, #C7DDEA baby blue, #A9A19E grey */
-
-
-
-
+    .nav-up-a {
+        text-decoration: none;
+        color: black;
+    }
 }
