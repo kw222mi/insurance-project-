@@ -1,0 +1,30 @@
+/*----------------------CONTACT PAGE--------------------*/
+
+/*  Variables:
+    --main-font: Fira Sans;
+    --header-font: Frank Ruhl Libre;
+    --baby-blue: #C7DDEA;
+    --orange: #F17949;
+    --yellow: #FAB131;
+    --grey: #A9A19E;
+*/
+
+.contact-header {
+ background-color: var(--baby-blue);
+ display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
+}
+
+.contact-header-h1 {
+    align-self: center;
+
+}
+
+.contact-header-img {
+    display: flex;
+    margin-right: 10rem;
+    margin-top: 7rem;
+    
+}

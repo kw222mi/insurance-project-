@@ -8,8 +8,9 @@ html {
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
+    height: 100dvh;
+    margin: auto;
+    max-width: 1200px;
 }
 
 p {
@@ -19,29 +20,30 @@ p {
 h1, h2, h3 {
     font-family: var(--header-font);
 }
+h1 {
+    font-size: 60px;
+}
 
 a {
     text-decoration: none;
     color: black;
 }
 
-/* DIV 1 */
+/*----------------------INDEX PAGE--------------------*/
+/* DIV 1, THE FIRST "PAGE" */
 .div1 {
     display: grid;
         grid: auto-flow min-content /1fr;
         grid-template-areas: "section1"
             "section2"
             "section3";
-        margin: 1em;
 }
-
 
 @media screen and (min-width: 650px) {
     .div1 {
         grid: auto-flow min-content / 1fr 1fr;
         grid-template-areas: "section1 section2"
                             "section1 section3";
-          
     }
 
         .div1-img-button {
@@ -58,24 +60,22 @@ a {
             margin: 100px 10px 10px 50px;
         }
 }
+
 /* SECTION 1*/
 .section1 {
     background-color: var(--baby-blue);
     grid-area: section1;
     display: flex;
     flex-direction: column;
-    
 }
 
 .section1-h1 {
-    font-size: 60px;
     margin: 50px 50px 10px 50px;
     line-height: 0.9;
 }
 
 .section1-p1 {
     margin: 10px 50px 10px 50px;
-
 }
 
 .section1-span {
@@ -97,7 +97,6 @@ a {
     width: fit-content;
 }
     
-
 .section1-img {
     height: 300px;
     margin: 20px;
@@ -157,9 +156,9 @@ a {
 }
 
 .nav-link {
-   
     color: var(--grey);
 }
+
 .nav-link:hover {
     color: black;
 }
@@ -230,8 +229,8 @@ a {
 
 .old {
     background-color: var(--orange);
-
 }
+
 .card-img-child { 
     max-width: 50%;
         margin-bottom: -12%;
@@ -315,9 +314,7 @@ a {
     }
 }
 
-
 /* SECTION 5 */
-
 .section5 {
     display: grid;
         grid: auto-flow 200px /1fr;
@@ -326,10 +323,9 @@ a {
                             "section5-3"
                             "section5-4"
                             "section5-5"
-                            "section5-6";
-       
-        
+                            "section5-6";        
 }
+
 .section5-1 {
     background-color: var(--baby-blue);
     text-align: center;
@@ -337,8 +333,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .section5-1-h2 {
     font-size: 3em;
 }
@@ -378,9 +374,7 @@ a {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    
 }
-
 
 @media screen and (min-width: 650px) {
     .section5 {
@@ -398,6 +392,4 @@ a {
         display: flex;
         flex-direction: column;
     }
-
-   
 }
