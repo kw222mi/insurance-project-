@@ -235,18 +235,21 @@ a {
     max-width: 50%;
         margin-bottom: -12%;
         margin-top: 50px;
+        display: none;
 }
 
 .card-img-middle {
     max-width: 50%;
-    margin-bottom: -85%;
+    margin-bottom: -75%;
     margin-top: 50px;
+    display: none;
 }
 
 .card-img-old {
     max-width: 50%;
     margin-bottom: -70%;
     margin-top: 50px;
+    display: none;
 }
 
 .card-h3 {
@@ -312,6 +315,18 @@ a {
         justify-content: center;
         align-items: center;
     }
+
+        .card-img-child {
+            display: block;
+        }
+    
+        .card-img-middle {
+            display: block;
+        }
+    
+        .card-img-old {
+            display: block;
+        }
 }
 
 /* SECTION 5 */
