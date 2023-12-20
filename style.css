@@ -391,6 +391,10 @@ a {
     margin-top: 50px;
 }
 
+.nav-up {
+   display: none;
+}
+
 @media screen and (min-width: 650px) {
     .section5 {
         grid: auto-flow 300px / 1fr 1fr 1fr;
