@@ -151,12 +151,12 @@ a {
 
 .nav-menu {
     display: grid;
-    grid: auto-flow min-content / 1fr 1fr;
-    gap:2rem;
+    grid: 60px 60px / 1fr 1fr;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: var(--grey);
     font-family: var(--main-font);
-    padding: 30px 0px 30px 0px;
 }
 
 .nav-link {
@@ -165,7 +165,18 @@ a {
 
 .nav-link:hover {
     color: black;
-    
+}
+
+.nav-item{
+display: flex;
+    height: 100%;
+    color: #807d7d;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item:hover {
+    background-color: rgb(233, 231, 231);    
 }
 
 @media screen and (min-width: 650px) {
