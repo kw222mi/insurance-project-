@@ -99,15 +99,15 @@ padding: 15px;
          display: flex;
          flex-direction: row;
          justify-content: space-around;
+         align-items: baseline;
+     }
+     .form-header {
+         margin-top: 0px;
      }
 
-         .form-header {
-             margin-top: 70px;
-         }
-
-                  form {
-                      margin-top: 70px;
-                  }
+    form {
+        margin-top: 70px;
+    }
  }
 
  /*MAP SECTION*/
@@ -128,7 +128,6 @@ padding: 15px;
  .map-h1 {
      text-align: center;
      color: white;
-     line-height: 0.5rem;
      padding-top: 30px;
  }
 
@@ -146,6 +145,7 @@ padding: 15px;
 }
 
 .adress-div {
+
     position: relative;
     top: 80px;
     left: 140px;
