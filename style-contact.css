@@ -38,24 +38,24 @@ justify-content: flex-end;
 }
 
 /*FORM*/
+
 .form-section {
     background-color: var(--grey);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-header {
     color: white;
-    margin-top: 70px;
+    margin-top: 40px;
 }
+
  form {
     display: flex;
     flex-direction: column;
     margin-bottom: 70px;
-    margin-top: 70px;
-    
+    margin-top: 20px;
  }
 
  label {
@@ -81,7 +81,6 @@ padding: 15px;
 
  .form-button {
     margin-top: 20px;
-
     background-color: white;
         border-radius: 22px;
         font-family: var(--main-font);
@@ -93,6 +92,22 @@ padding: 15px;
         display: flex;
         align-self: flex-end;
         width: fit-content;    
+ }
+ @media screen and (min-width: 650px) {
+     .form-section {
+         background-color: var(--grey);
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+     }
+
+         .form-header {
+             margin-top: 70px;
+         }
+
+                  form {
+                      margin-top: 70px;
+                  }
  }
 
  /*MAP SECTION*/
