@@ -5,6 +5,8 @@ html {
     --orange: #F17949;
     --yellow: #FAB131;
     --grey: #A9A19E;
+
+    box-sizing: border-box;
 }
 
 html, body {
