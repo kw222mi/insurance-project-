@@ -81,17 +81,12 @@ padding: 15px;
 
  .form-button {
     margin-top: 20px;
-    background-color: white;
-        border-radius: 22px;
-        font-family: var(--main-font);
         font-size: 15px;
-        padding: 10px 30px;
         font-style: bold;
-        display: flex;
-        align-self: flex-start;
         display: flex;
         align-self: flex-end;
         width: fit-content;    
+        margin-right: 10px;
  }
  @media screen and (min-width: 650px) {
      .form-section {
