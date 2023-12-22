@@ -228,6 +228,8 @@ a {
 
 .section1-button {
     background-color: white;
+    border: 1px solid #422800;
+    box-shadow: #422800 3px 3px 0 0;
     border-radius: 22px;
     font-family: var(--main-font);
     font-size: 15px;
@@ -239,7 +241,24 @@ a {
     display: flex;
     align-self: center;
     width: fit-content;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+
 }
+
+.section1-button:hover {
+    background-color: rgba(246, 251, 246, 0.933);
+}
+    
+.section1-button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+    
+        
+
 
 .section1-img {
     height: 300px;
